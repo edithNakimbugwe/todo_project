@@ -14,3 +14,5 @@ def add_todo(request):
         return redirect('todo_list')
     return render(request, 'todo/add_todo.html')
 
+
+
